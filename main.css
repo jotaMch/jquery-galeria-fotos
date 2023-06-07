@@ -91,4 +91,8 @@ ul li:hover .overlay-imagem-link {
     button, h1 {
         margin: 0 12px;
     }
+
+    input {
+        margin-bottom: 12px;
+    }
 }
