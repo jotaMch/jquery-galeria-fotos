@@ -6,11 +6,11 @@
 }
 
 header {
-    background-color: #5f27cd;
+    background-color: #5126a7;
     padding: 16px 0;
     color: #fff;
     display: flex;
-    border-bottom: 16px solid #341f97;
+    border-bottom: 16px solid #341ba3;
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
@@ -38,6 +38,7 @@ input, button {
 button {
     background-color: #009432;
     border: none;
+    border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
@@ -84,4 +85,10 @@ ul li img {
 
 ul li:hover .overlay-imagem-link {
     opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    button, h1 {
+        margin: 0 12px;
+    }
 }
